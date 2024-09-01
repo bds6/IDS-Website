@@ -199,7 +199,7 @@ ul li {
 }
 
 .resource-text a {
-    color: #007bff;
+    color: #0461cf;
     font-weight: bold;
     text-decoration: none;
 }
@@ -274,7 +274,7 @@ ul li {
 }
 
 .cta-button {
-    background: #007bff;
+    background: #0461cf;
     border-radius: 5px;
     color: #fff;
     display: inline-block;
