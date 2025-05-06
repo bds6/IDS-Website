@@ -130,11 +130,12 @@
         <!-- Combined Contact and Feedback -->
         <hr>
         <div class="contact-feedback">
-            <h3>Contact Us via Email... for help or feedback at</h3>
-            <p>
-                <small>(click to copy)</small>
-                <span id="email" class="button-link" onclick="copyEmail()" style="cursor: pointer;">0c004625.PennStateOffice365.onmicrosoft.com@amer.teams.ms</span>
-              </p>
+            <h3>Contact Us via Email</h3>
+            <p>Need help or want to provide feedback, use our support email.</p>
+            <div class="button-wrapper">
+              <a id="email" class="cta-button" onclick="copyEmail()" style="cursor: pointer;">Click to Copy Email</a>
+              <span id="hidden-email" style="display: none;">0c004625.PennStateOffice365.onmicrosoft.com@amer.teams.ms</span>
+            </div>
         </div>
     </div>
 </section>
@@ -148,8 +149,9 @@
     });
 
     function copyEmail() {
-      navigator.clipboard.writeText('support-channel@psu.edu');
-      alert('Email copied to clipboard!');
+      const email = document.getElementById('hidden-email').textContent;
+      navigator.clipboard.writeText(email);
+      alert(`Copied email: ${email}`);
     }
   </script>
 </body>
