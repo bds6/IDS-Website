@@ -353,6 +353,9 @@ hr {
     width: 48px;
     height: 48px;
     margin-right: 16px;
+    margin-top: 6px;
+    object-fit: contain;
+    align-self: flex-start;
   }
   
   .accordion-header-text {
