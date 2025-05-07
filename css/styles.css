@@ -70,7 +70,7 @@ ul li {
     font-weight: bold;
 }
 
-#hero .cta-button {
+.cta-button {
     background: #7a9e9f;
     border-radius: 5px;
     color: #fff;
@@ -83,7 +83,7 @@ ul li {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#hero .cta-button:hover {
+.cta-button:hover {
     background: #2a4f4d;
     color: #fff;
 }
@@ -291,14 +291,14 @@ ul li {
   font-weight: bold;
   display: block;
   padding: 12px 16px;
-  border-left: 4px solid #4a6b55;
+  border-left: 4px solid #5fa8dc;
   border-radius: 4px;
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 .resource-card ul li a:hover {
   background-color: #e8e4d9;
-  box-shadow: 0 0 8px #4a6b5566;
+  box-shadow: 0 0 8px #5fa8dc66;
 }
 
 .button-wrapper {
@@ -306,7 +306,7 @@ ul li {
 }
 
 .cta-button {
-    background: #7a9e9f; /* space blue */
+    background: #5fa8dc;
     border-radius: 5px;
     color: #fff;
     display: inline-block;
@@ -315,13 +315,13 @@ ul li {
     padding: 12px 24px;
     text-decoration: none;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .cta-button:hover {
-    background: #2a4f4d; /* soft blue hover */
+}
+
+.cta-button:hover {
+    background: #3f7fa9;
     color: #fff;
-    box-shadow: 0 0 12px #61898588; /* glowing effect */
-  }
+    box-shadow: 0 0 12px #5fa8dc88;
+}
 
 hr {
     background-color: #cccccc;
@@ -415,7 +415,7 @@ hr {
     display: inline-block;
     padding: 6px 12px;
     border: none;
-    background: #7a9e9f;
+    background: #5fa8dc;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -426,7 +426,7 @@ hr {
   }
   
   .button-link:hover {
-    background: #2a4f4d;
+    background: #3f7fa9;
     color: #fff;
-    box-shadow: 0 0 12px #61898588;
+    box-shadow: 0 0 12px #5fa8dc88;
   }
